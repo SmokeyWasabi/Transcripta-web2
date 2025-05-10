@@ -1,0 +1,90 @@
+<!-- Hero Section -->
+<section id="section-main" class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">Transcripta</h1>
+    <p class="hero-description">
+      Empowering software solutions for the modern world.
+    </p>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Features Section -->
+<section id="section-feature" class="features-section">
+  <h2>Our Features</h2>
+  <div class="features-grid">
+    <!-- Feature 1 -->
+    <div class="feature-item">
+      <img
+        src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+        alt="Software 1"
+      />
+      <h3>Feature 1</h3>
+      <p>Feature description goes here. This is a brief explanation.</p>
+    </div>
+    <!-- Feature 2 -->
+    <div class="feature-item">
+      <img
+        src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+        alt="Software 2"
+      />
+      <h3>Feature 2</h3>
+      <p>Feature description goes here. This is a brief explanation.</p>
+    </div>
+    <!-- Feature 3 -->
+    <div class="feature-item">
+      <img
+        src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+        alt="Software 3"
+      />
+      <h3>Feature 3</h3>
+      <p>Feature description goes here. This is a brief explanation.</p>
+    </div>
+    <!-- Feature 4 -->
+    <div class="feature-item">
+      <img
+        src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+        alt="Software 4"
+      />
+      <h3>Feature 4</h3>
+      <p>Feature description goes here. This is a brief explanation.</p>
+    </div>
+  </div>
+</section>
+<p-divider></p-divider>
+
+<!-- Why Us Section -->
+<section id="section-why" class="why-us">
+  <h2>Why Choose Us</h2>
+  <div class="why-us-grid-2x2">
+    <p-card
+      *ngFor="let item of [1, 2, 3, 4]"
+      header="Key Benefit"
+      pAnimateOnScroll
+      animation="zoomout"
+    >
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </p-card>
+  </div>
+</section>
+
+<!-- Pricing Section -->
+<section id="section-pricing" class="pricing">
+  <h2>Pricing</h2>
+  <div class="pricing-grid">
+    <p-card header="Basic Plan">
+      <p>$9.99/month</p>
+      <p>Great for individuals</p>
+    </p-card>
+
+    <p-card header="Pro Plan">
+      <p>$29.99/month</p>
+      <p>Best for small teams</p>
+    </p-card>
+    <p-card header="Enterprise">
+      <p>Contact us</p>
+      <p>Custom solutions</p>
+    </p-card>
+  </div>
+</section>

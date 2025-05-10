@@ -1,0 +1,170 @@
+/* Title Section */
+.hero-section {
+  position: relative;
+  width: 100%; /* Full width */
+  height: 50vh; /* Adjust this height for a shorter section */
+  background: linear-gradient(45deg, #ff6a00, #ffcc00, #00c6ff, #0072ff);
+  background-size: 400% 400%;
+  animation: gradient-flow 15s ease infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  overflow: visible;
+}
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hero-content {
+  z-index: 1;
+  animation: fadeInUp 1.5s ease-out;
+}
+
+.hero-title {
+  font-size: 3rem; /* Adjusted size for shorter height */
+  margin-bottom: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  opacity: 0;
+  animation: fadeInTitle 2s ease-out forwards;
+}
+
+.hero-description {
+  font-size: 1.2rem; /* Adjusted size for a shorter section */
+  opacity: 0;
+  animation: fadeInDescription 2.5s ease-out forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes fadeInTitle {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDescription {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Features Section */
+.features-section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.feature-item {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.feature-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Why Us */
+.why-us {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.why-us-grid-2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .why-us-grid-2x2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Pricing */
+.pricing {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+.pricing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+// Dark modes
+// .p-dark .hero-section {
+//   background: linear-gradient(45deg, var(--p-surface-50), var(--p-surface-50));
+//   color: var(--p-text-primary);
+// }
+
+.p-dark .feature-item {
+  background-color: var(--p-card-background);
+  color: var(--p-text-primary);
+  border: 1px solid #444;
+}
+
+.p-dark .features-section {
+  background-color: var(--p-background);
+  color: var(--p-text-primary);
+}
+
+.p-dark .why-us {
+  background-color: var(--p-background);
+  color: var(--p-text-primary);
+}
+
+.p-dark .pricing {
+  background-color: var(--p-background);
+  color: var(--p-text-primary);
+}
+
+.p-dark .p-card {
+  background-color: var(--p-card-background) !important;
+  color: var(--p-text-primary) !important;
+  border-color: #444 !important;
+}
