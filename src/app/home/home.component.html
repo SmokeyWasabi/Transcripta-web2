@@ -1,0 +1,200 @@
+<!-- Hero Section -->
+<section id="section-main" class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">Transcripta</h1>
+    <p class="hero-description">
+      Empowering software solutions for the modern world.
+    </p>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<section class="features-section">
+  <h2>Screenshots</h2>
+  <div class="features-grid">
+    <div class="feature-item">
+      <img
+        src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+        alt="Software 1"
+      />
+    </div>
+    <div class="feature-item">
+      <img
+        src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+        alt="Software 1"
+      />
+    </div>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Features Section -->
+<section id="section-feature" class="features-section">
+  <h2>Our Features</h2>
+  <div class="features-grid">
+    <!-- Feature 1 -->
+    <div class="feature-item">
+      <img
+        src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+        alt="Software 1"
+      />
+      <h3>Feature 1</h3>
+      <p>Feature description goes here. This is a brief explanation.</p>
+    </div>
+    <!-- Feature 2 -->
+    <div class="feature-item">
+      <img
+        src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+        alt="Software 2"
+      />
+      <h3>Feature 2</h3>
+      <p>Feature description goes here. This is a brief explanation.</p>
+    </div>
+    <!-- Feature 3 -->
+    <div class="feature-item">
+      <img
+        src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+        alt="Software 3"
+      />
+      <h3>Feature 3</h3>
+      <p>Feature description goes here. This is a brief explanation.</p>
+    </div>
+    <!-- Feature 4 -->
+    <div class="feature-item">
+      <img
+        src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+        alt="Software 4"
+      />
+      <h3>Feature 4</h3>
+      <p>Feature description goes here. This is a brief explanation.</p>
+    </div>
+  </div>
+</section>
+<p-divider></p-divider>
+
+<!-- Why Us Section -->
+<section id="section-why" class="why-us">
+  <h2>Why Choose Us</h2>
+  <div class="why-us-grid-2x2">
+    <p-card
+      *ngFor="let item of [1, 2, 3, 4]"
+      header="Key Benefit"
+      pAnimateOnScroll
+      animation="zoomout"
+    >
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </p-card>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Single Video Section -->
+<section class="single-video-section">
+  <h2>Watch Our Platform in Action</h2>
+  <div class="video-container">
+    <video controls>
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Quick Start Section -->
+<section class="quick-start-section">
+  <h2>Quick Start</h2>
+  <ol>
+    <li>Sign up for a free account</li>
+    <li>Choose your preferred tools</li>
+    <li>Deploy your first project in minutes</li>
+  </ol>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Pricing Section -->
+<section id="section-pricing" class="pricing">
+  <h2>Pricing</h2>
+  <div class="pricing-grid">
+    <p-card header="Basic Plan">
+      <p>$9.99/month</p>
+      <p>Great for individuals</p>
+    </p-card>
+
+    <p-card header="Pro Plan">
+      <p>$29.99/month</p>
+      <p>Best for small teams</p>
+    </p-card>
+    <p-card header="Enterprise">
+      <p>Contact us</p>
+      <p>Custom solutions</p>
+    </p-card>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Q&A Section -->
+<section class="qa-section">
+  <h2>Frequently Asked Questions</h2>
+  <p-accordion value="0" [multiple]="true">
+    <p-accordion-panel value="0">
+      <p-accordion-header
+        >What is Transcripta?
+        <ng-template #toggleicon let-active="active">
+          @if (active) {
+          <i class="pi pi-minus"></i>
+          } @else {
+          <i class="pi pi-plus"></i>
+          }
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">
+          Transcripta is a software platform empowering modern solutions.
+        </p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
+    <p-accordion-panel value="1">
+      <p-accordion-header
+        >Is there a free trial?
+        <ng-template #toggleicon let-active="active">
+          @if (active) {
+          <i class="pi pi-minus"></i>
+          } @else {
+          <i class="pi pi-plus"></i>
+          }
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">Yes! Our Basic Plan offers a 14-day free trial.</p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
+    <p-accordion-panel value="2">
+      <p-accordion-header
+        >Can I upgrade at any time?
+        <ng-template #toggleicon let-active="active">
+          @if (active) {
+          <i class="pi pi-minus"></i>
+          } @else {
+          <i class="pi pi-plus"></i>
+          }
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">
+          Absolutely. You can switch plans from your account dashboard.
+        </p>
+      </p-accordion-content>
+    </p-accordion-panel>
+  </p-accordion>
+</section>

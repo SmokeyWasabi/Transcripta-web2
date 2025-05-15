@@ -1,0 +1,63 @@
+<nav class="navbar">
+  <div class="navbar-content">
+    <button
+      pButton
+      icon="pi pi-home"
+      class="p-button-text"
+      [routerLink]="['/home']"
+      [fragment]="'section-main'"
+    >
+      {{ "HOME" | translate }}
+    </button>
+    <button
+      pButton
+      icon="pi pi-wrench"
+      class="p-button-text"
+      [routerLink]="['/home']"
+      [fragment]="'section-feature'"
+    >
+      {{ "ABOUT" | translate }}
+    </button>
+    <button
+      pButton
+      icon="pi pi-user"
+      class="p-button-text"
+      [routerLink]="['/home']"
+      [fragment]="'section-why'"
+    >
+      Why Us
+    </button>
+    <button
+      pButton
+      icon="pi pi-dollar"
+      class="p-button-text"
+      [routerLink]="['/home']"
+      [fragment]="'section-pricing'"
+    >
+      Pricing
+    </button>
+    <p-button
+      type="button"
+      class="topbar-theme-button"
+      (click)="toggleDarkMode()"
+      text
+      rounded
+    >
+      <i
+        class="pi"
+        [ngClass]="{
+          'pi-moon': isDarkMode(),
+          'pi-sun': !isDarkMode()
+        }"
+      ></i>
+    </p-button>
+    <p-select
+      [options]="languages"
+      [(ngModel)]="selectedLanguage"
+      (onChange)="onLanguageChange($event.value)"
+      optionLabel="label"
+      placeholder="English"
+      styleClass="language-select"
+    />
+  </div>
+</nav>
