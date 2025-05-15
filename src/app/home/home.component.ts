@@ -7,6 +7,9 @@ import { AnimateOnScrollModule } from 'primeng/animateonscroll';
 import { ActivatedRoute, Router } from '@angular/router';
 import { AccordionModule } from 'primeng/accordion';
 
+// <-- import TranslateModule
+import { TranslateModule } from '@ngx-translate/core';
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -17,6 +20,7 @@ import { AccordionModule } from 'primeng/accordion';
     ImageModule,
     AnimateOnScrollModule,
     AccordionModule,
+    TranslateModule, // <-- add this so the translate pipe is available
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
