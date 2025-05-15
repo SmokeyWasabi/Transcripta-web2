@@ -1,0 +1,129 @@
+@use "primeicons/primeicons.css";
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/poppins/Poppins-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+:host {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: normal;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--p-surface-50);
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.p-dark body {
+  background-color: var(--p-surface-950);
+}
+
+.layout-container {
+  background-color: var(--p-surface-50);
+  color: var(--p-surface-950);
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.p-dark .layout-container {
+  background-color: var(--p-surface-950);
+  color: var(--p-surface-0);
+}
+
+.footer {
+  background-color: var(--p-surface-0);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid var(--p-surface-200);
+  width: 100%;
+}
+
+.p-dark .footer {
+  background-color: var(--p-surface-900);
+  border-color: var(--p-surface-700);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
+.footer-copyright {
+  font-size: 0.875rem;
+  color: var(--p-surface-600);
+}
+
+.p-dark .footer-copyright {
+  color: var(--p-surface-400);
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-link {
+  color: var(--p-surface-600);
+  font-size: 0.875rem;
+  transition: color 0.2s;
+}
+
+.p-dark .footer-link {
+  color: var(--p-surface-400);
+}
+
+.footer-link:hover {
+  color: var(--p-primary-500);
+}
+
+.footer-icon {
+  font-size: 1.25rem;
+}
+
+.relative {
+  position: relative;
+}
