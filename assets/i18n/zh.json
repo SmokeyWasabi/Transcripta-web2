@@ -45,22 +45,41 @@
       "DESC": "详尽答案分析，提供实时反馈与建议，帮助您提升面试表现。"
     }
   },
+  "SINGLE_VIDEO": {
+    "HEADING": "观看我们的平台演示",
+    "FALLBACK": "您的浏览器不支持视频标签。"
+  },
+  "QUICK_START": {
+    "HEADING": "快速开始",
+    "STEP1": "注册一个免费账户",
+    "STEP2": "选择您偏好的工具",
+    "STEP3": "几分钟内部署第一个项目"
+  },
   "PRICING": {
     "HEADING": "定价",
     "BASIC": {
-      "TITLE": "基础方案",
-      "PRICE": "¥29.99/次",
-      "DESC": "适合单次使用"
+      "TITLE": "基础版",
+      "PRICE": "¥9.99/月",
+      "DESCRIPTION": "适合个人用户"
     },
     "PRO": {
-      "TITLE": "专业方案",
-      "PRICE": "¥199.99/月",
-      "DESC": "适合多次使用"
+      "TITLE": "专业版",
+      "PRICE": "¥29.99/月",
+      "DESCRIPTION": "适合小团队"
     },
-    "ENT": {
-      "TITLE": "企业方案",
+    "ENTERPRISE": {
+      "TITLE": "企业版",
       "PRICE": "请联系我们",
-      "DESC": "定制化解决方案"
+      "DESCRIPTION": "定制化解决方案"
     }
+  },
+  "QA": {
+    "HEADING": "常见问题",
+    "QUESTION1": "什么是灵答？",
+    "ANSWER1": "灵答是一款为现代面试场景赋能的软件平台。",
+    "QUESTION2": "有免费试用吗？",
+    "ANSWER2": "有的！我们的基础版提供 14 天免费试用。",
+    "QUESTION3": "我可以随时升级吗？",
+    "ANSWER3": "当然可以。您可在个人中心随时切换套餐。"
   }
 }
