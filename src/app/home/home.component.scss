@@ -227,6 +227,24 @@
 
 // Dark modes
 
+.p-dark .hero-section {
+  background: linear-gradient(45deg, #0f2027, #203a43, #2c5364, #1c1c1c);
+  background-size: 400% 400%;
+  animation: gradient-flow 15s ease infinite;
+}
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .p-dark .feature-item {
   background-color: var(--p-card-background);
   color: var(--p-text-primary);
