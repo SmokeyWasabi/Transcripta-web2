@@ -45,22 +45,41 @@
       "DESC": "Explained solutions with step-by-step reasoning to help you understand the logic behind the answers."
     }
   },
+  "SINGLE_VIDEO": {
+    "HEADING": "Watch Our Platform in Action",
+    "FALLBACK": "Your browser does not support the video tag."
+  },
+  "QUICK_START": {
+    "HEADING": "Quick Start",
+    "STEP1": "Sign up for a free account",
+    "STEP2": "Choose your preferred tools",
+    "STEP3": "Deploy your first project in minutes"
+  },
   "PRICING": {
     "HEADING": "Pricing",
     "BASIC": {
       "TITLE": "Basic Plan",
-      "PRICE": "$4.99/month",
-      "DESC": "Pay-per-use"
+      "PRICE": "$9.99/month",
+      "DESCRIPTION": "Great for individuals"
     },
     "PRO": {
       "TITLE": "Pro Plan",
       "PRICE": "$29.99/month",
-      "DESC": "For multiple interview sessions"
+      "DESCRIPTION": "Best for small teams"
     },
-    "ENT": {
+    "ENTERPRISE": {
       "TITLE": "Enterprise",
       "PRICE": "Contact us",
-      "DESC": "Custom solutions"
+      "DESCRIPTION": "Custom solutions"
     }
+  },
+  "QA": {
+    "HEADING": "Frequently Asked Questions",
+    "QUESTION1": "What is Transcripta?",
+    "ANSWER1": "Transcripta is a software platform empowering modern solutions.",
+    "QUESTION2": "Is there a free trial?",
+    "ANSWER2": "Yes! Our Basic Plan offers a 14-day free trial.",
+    "QUESTION3": "Can I upgrade at any time?",
+    "ANSWER3": "Absolutely. You can switch plans from your account dashboard."
   }
 }
