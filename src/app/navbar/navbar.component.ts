@@ -9,13 +9,10 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ButtonModule } from 'primeng/button';
 import { LayoutService } from '../service/layout.service';
-import { ToggleButtonModule } from 'primeng/togglebutton';
 import { FormsModule } from '@angular/forms';
 import { SelectModule } from 'primeng/select';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslatePipe, TranslateDirective } from '@ngx-translate/core';
-import translationZH from '../../../assets/i18n/content_zh.json';
-import translationEN from '../../../assets/i18n/content_en.json';
 import ZH from '../../../assets/i18n/zh.json';
 import EN from '../../../assets/i18n/en.json';
 
