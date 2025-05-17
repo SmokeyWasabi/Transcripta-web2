@@ -233,6 +233,18 @@
   animation: gradient-flow 15s ease infinite;
 }
 
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .p-dark .feature-item {
   background-color: var(--p-card-background);
   color: var(--p-text-primary);
