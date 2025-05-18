@@ -8,9 +8,9 @@
     "DESCRIPTION": "The ultimate tool to ace your next interview with features like voice-to-text and Screen Shot search."
   },
   "SCREENSHOT": {
-    "HEADING": "Screenshots",
-    "CANDIDATE": "User Screen",
-    "INTERVIEWER": "Interviewer Screen"
+    "HEADING": "Live Screen Views",
+    "CANDIDATE": "User's Screen",
+    "INTERVIEWER": "Interviewer Viewing User's Screen"
   },
   "SECTIONTITLE2":"Our Features",
   "FEATURES": {
@@ -52,7 +52,7 @@
     }
   },
   "SINGLE_VIDEO": {
-    "HEADING": "Watch Our Platform in Action",
+    "HEADING": "Live Demo",
     "FALLBACK": "Your browser does not support the video tag."
   },
   "QUICK_START": {
@@ -64,28 +64,38 @@
   "PRICING": {
     "HEADING": "Pricing",
     "BASIC": {
-      "TITLE": "Basic Plan",
-      "PRICE": "$9.99/month",
-      "DESCRIPTION": "Great for individuals"
+      "TITLE": "Per Session Plan",
+      "PRICE": "$5/session (2 hours)",
+      "DESCRIPTION": "Great for single usage"
     },
     "PRO": {
-      "TITLE": "Pro Plan",
+      "TITLE": "Monthly Plan",
       "PRICE": "$29.99/month",
-      "DESCRIPTION": "Best for small teams"
+      "DESCRIPTION": "Best for multiple usages for unlimited sessions"
     },
     "ENTERPRISE": {
-      "TITLE": "Enterprise",
-      "PRICE": "Contact us",
-      "DESCRIPTION": "Custom solutions"
+      "TITLE": "Enterprise Plan",
+      "PRICE": "Please contact us",
+      "DESCRIPTION": "Customimized solutions for the business's needs"
     }
   },
   "QA": {
     "HEADING": "Frequently Asked Questions",
-    "QUESTION1": "What is Transcripta?",
-    "ANSWER1": "Transcripta is a software platform empowering modern solutions.",
-    "QUESTION2": "Is there a free trial?",
-    "ANSWER2": "Yes! Our Basic Plan offers a 14-day free trial.",
-    "QUESTION3": "Can I upgrade at any time?",
-    "ANSWER3": "Absolutely. You can switch plans from your account dashboard."
+    "QUESTION1": "Is Transripta free to use?",
+    "ANSWER1": "We currently offer a trial version. Some core features are permanently free, while advanced features can be unlocked through a subscription.",
+    "QUESTION2": "Can the platform detect Transripta during use?",
+    "ANSWER2": "No. The tool runs in a hidden window and displays no visible interface. Platforms like Tencent Meeting, DingTalk, Zoom, Google Meet, or Microsoft Teams cannot detect it.",
+    "QUESTION3": "How do I log in to the system?",
+    "ANSWER3": "Access is granted through a unique password distributed by the team—no account registration required. Each user has a secure, individualized access credential.",
+    "QUESTION4": "What modes can I switch between?",
+    "ANSWER4":  "We support three usage modes: Behavioral, Technical, and Coding. The system automatically adjusts its output logic based on the selected mode.",
+    "QUESTION5": "How does the system generate answers quickly?",
+    "ANSWER5": "Transripta uses a dual-engine approach with local caching and cloud-based models, allowing it to recognize voice input and generate high-quality responses within 2 seconds.",
+    "QUESTION6": "What programming languages are supported?",
+    "ANSWER6": "We support many popular programming languages, including Python, Java, JavaScript, C/C++, C#, R, SQL, HTML/CSS, MATLAB, Ruby, Go, Swift, TypeScript, Bash/Shell, and VBA.",
+    "QUESTION7": "Are languages other than English supported?",
+    "ANSWER7": "Currently, we support both English and Chinese. We are working on adding more languages in the future.",
+    "QUESTION8": "What should I do if I experience a bug?",
+    "ANSWER8": "Please contact the support team through email. We'll respond as quickly as possible to resolve the issue."
   }
 }

@@ -8,16 +8,16 @@
     "DESCRIPTION": "无缝语音转文字与截图搜索，让您轻松应对下一场面试。"
   },
   "SCREENSHOT": {
-    "HEADING": "记得改",
-    "CANDIDATE": "User Screen",
-    "INTERVIEWER": "Interviewer Screen"
+    "HEADING": "实时屏幕",
+    "CANDIDATE": "用户屏幕",
+    "INTERVIEWER": "面试官视角屏幕"
   },
   "SECTIONTITLE2":"特点展示",
   "FEATURES": {
     "HEADING": "核心功能",
     "ITEM1": {
       "TITLE": "企业级实时转写",
-      "DESCRIPTION": "高速双语转写，2 秒内响应，精准率媲美企业级标准。"
+      "DESCRIPTION": "高速双语转写, 2 秒内响应，精准率媲美企业级标准。"
     },
     "ITEM2": {
       "TITLE": "编程友好截图搜索",
@@ -52,7 +52,7 @@
     }
   },
   "SINGLE_VIDEO": {
-    "HEADING": "观看我们的平台演示",
+    "HEADING": "实机演示",
     "FALLBACK": "您的浏览器不支持视频标签。"
   },
   "QUICK_START": {
@@ -64,28 +64,38 @@
   "PRICING": {
     "HEADING": "定价",
     "BASIC": {
-      "TITLE": "基础版",
-      "PRICE": "¥9.99/月",
-      "DESCRIPTION": "适合个人用户"
+      "TITLE": "单次使用方案",
+      "PRICE": "¥20/次 (2小时)",
+      "DESCRIPTION": "适合单次使用"
     },
     "PRO": {
-      "TITLE": "专业版",
-      "PRICE": "¥29.99/月",
-      "DESCRIPTION": "适合小团队"
+      "TITLE": "月度使用方案",
+      "PRICE": "¥199/月",
+      "DESCRIPTION": "适合频繁使用用户，无限次数"
     },
     "ENTERPRISE": {
-      "TITLE": "企业版",
+      "TITLE": "企业使用方案",
       "PRICE": "请联系我们",
-      "DESCRIPTION": "定制化解决方案"
+      "DESCRIPTION": "可根据企业需求定制解决方案"
     }
   },
   "QA": {
     "HEADING": "常见问题",
-    "QUESTION1": "什么是灵答？",
-    "ANSWER1": "灵答是一款为现代面试场景赋能的软件平台。",
-    "QUESTION2": "有免费试用吗？",
-    "ANSWER2": "有的！我们的基础版提供 14 天免费试用。",
-    "QUESTION3": "我可以随时升级吗？",
-    "ANSWER3": "当然可以。您可在个人中心随时切换套餐。"
+    "QUESTION1": "灵答是免费使用的吗？",
+    "ANSWER1": "我们目前提供试用版本，部分核心功能永久免费使用。更多高级功能可通过订阅解锁。",
+    "QUESTION2": "在使用过程中是否会被平台检测到？", 
+    "ANSWER2": "不会。本工具以隐形窗口形式运行, 不显示任何界面, 不会被腾讯会议、钉钉、Zoom、Google Meet或Teams等平台发现。",
+    "QUESTION3": "我如何登录系统？",
+    "ANSWER3": "登录方式为团队分发的独立密码，无需注册账号。每个用户拥有唯一的授权凭证，确保访问安全。",
+    "QUESTION4": "支持哪些模式切换？",
+    "ANSWER4":  "我们支持三种使用模式切换：行为类、技术类、编程类，系统将根据所选自动调整输出逻辑。",
+    "QUESTION5": "系统是如何快速生成回答的？",
+    "ANSWER5": "系统采用本地缓存 + 云端模型双引擎, 识别语音后可在2秒内生成高质量的响应内容。",
+    "QUESTION6": "支持哪些编程语言？",
+    "ANSWER6": "我们支持多种主流编程语言，包括 Python、Java、JavaScript、C/C++、C#、R、SQL、HTML/CSS、MATLAB、Ruby、Go、Swift、TypeScript、Bash/Shell, 以及 VBA等。",
+    "QUESTION7": "支持中文以外的语言吗？",
+    "ANSWER7": "我们目前只支持中英文语言。我们正在努力添加更多语言。",
+    "QUESTION8": "我遇到问题或bug怎么办？",
+    "ANSWER8": "请联系微信客服，我们将在最短时间内响应处理。"
   }
 }

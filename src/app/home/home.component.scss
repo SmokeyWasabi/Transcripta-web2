@@ -73,6 +73,19 @@
 .features-section {
   padding: 2rem 1rem;
   text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
 }
 
 .features-grid {
@@ -108,6 +121,13 @@
 .why-us {
   padding: 2rem 1rem;
   text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
 }
 
 .why-us-grid-2x2 {
@@ -128,6 +148,12 @@
   padding: 2rem 1rem;
   text-align: center;
   background-color: #f8f9fa;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
 }
 .pricing-grid {
   display: flex;

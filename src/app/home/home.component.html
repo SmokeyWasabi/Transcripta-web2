@@ -16,14 +16,14 @@
     <div class="feature-item">
       <h3>{{ 'SCREENSHOT.CANDIDATE' | translate }}</h3>
       <img
-        src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+        src="assets\resource\User's_Screen.png"
         alt="Software 1"
       />
     </div>
     <div class="feature-item">
       <h3>{{ 'SCREENSHOT.INTERVIEWER' | translate }}</h3>
       <img
-        src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+        src="assets\resource\Interviewer's_Screen.png"
         alt="Software 1"
       />
     </div>
@@ -32,9 +32,10 @@
 
 <p-divider></p-divider>
 
-<!-- Features Section -->
+<!-- Features Section 
 <section id="section-feature" class="features-section">
-  <h2>{{ 'SECTIONTITLE2' | translate }}</h2>
+  <h2>{{ 'SECTIONTITLE2' | translate }}</h2> 
+-->
   <!-- Features Section -->
   <section id="section-feature" class="features-section">
     <h2>{{ "FEATURES.HEADING" | translate }}</h2>
@@ -42,7 +43,7 @@
       <!-- Feature 1 -->
       <div class="feature-item">
         <img
-          src="https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif"
+          src="assets\resource\Enterprise-Grade_Voice-to-Text_EN.gif"
           alt="{{ 'FEATURES.ITEM1.TITLE' | translate }}"
         />
         <h3>{{ "FEATURES.ITEM1.TITLE" | translate }}</h3>
@@ -60,7 +61,7 @@
       <!-- Feature 3 -->
       <div class="feature-item">
         <img
-          src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+          src="assets\resource\Smart_Resume_Extraction.gif"
           alt="{{ 'FEATURES.ITEM3.TITLE' | translate }}"
         />
         <h3>{{ "FEATURES.ITEM3.TITLE" | translate }}</h3>
@@ -69,7 +70,7 @@
       <!-- Feature 4 -->
       <div class="feature-item">
         <img
-          src="https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80"
+          src="assets\resource\one-click_Mode_switching.gif"
           alt="{{ 'FEATURES.ITEM4.TITLE' | translate }}"
         />
         <h3>{{ "FEATURES.ITEM4.TITLE" | translate }}</h3>
@@ -77,7 +78,7 @@
       </div>
     </div>
   </section>
-</section>
+<!--</section>-->
 <p-divider></p-divider>
 
 <!-- Why Us Section -->
@@ -186,5 +187,66 @@
         <p class="m-0">{{ "QA.ANSWER3" | translate }}</p>
       </p-accordion-content>
     </p-accordion-panel>
+
+    <p-accordion-panel value="3">
+      <p-accordion-header>
+        {{ "QA.QUESTION4" | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">{{ "QA.ANSWER4" | translate }}</p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
+    <p-accordion-panel value="4">
+      <p-accordion-header>
+        {{ "QA.QUESTION5" | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">{{ "QA.ANSWER5" | translate }}</p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
+    <p-accordion-panel value="5">
+      <p-accordion-header>
+        {{ "QA.QUESTION6" | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">{{ "QA.ANSWER6" | translate }}</p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
+    <p-accordion-panel value="6">
+      <p-accordion-header>
+        {{ "QA.QUESTION7" | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">{{ "QA.ANSWER7" | translate }}</p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
+    <p-accordion-panel value="7">
+      <p-accordion-header>
+        {{ "QA.QUESTION8" | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">{{ "QA.ANSWER8" | translate }}</p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
   </p-accordion>
 </section>
