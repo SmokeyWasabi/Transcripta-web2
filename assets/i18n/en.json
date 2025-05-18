@@ -7,7 +7,11 @@
     "TITLE": "Transcripta",
     "DESCRIPTION": "The ultimate tool to ace your next interview with features like voice-to-text and Screen Shot search."
   },
-  "SECTIONTITLE1":"Screent Shots",
+  "SCREENSHOT": {
+    "HEADING": "Screenshots",
+    "CANDIDATE": "User Screen",
+    "INTERVIEWER": "Interviewer Screen"
+  },
   "SECTIONTITLE2":"Our Features",
   "FEATURES": {
     "HEADING": "Key Features",

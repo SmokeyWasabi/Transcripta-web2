@@ -7,7 +7,11 @@
     "TITLE": "灵答",
     "DESCRIPTION": "无缝语音转文字与截图搜索，让您轻松应对下一场面试。"
   },
-  "SECTIONTITLE1":"产品截图",
+  "SCREENSHOT": {
+    "HEADING": "记得改",
+    "CANDIDATE": "User Screen",
+    "INTERVIEWER": "Interviewer Screen"
+  },
   "SECTIONTITLE2":"特点展示",
   "FEATURES": {
     "HEADING": "核心功能",
