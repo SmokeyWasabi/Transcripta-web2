@@ -1,0 +1,21 @@
+<p-menubar [model]="menuItems" class="navbar">
+  <ng-template pTemplate="end">
+    <p-button
+      type="button"
+      class="topbar-theme-button"
+      (click)="toggleDarkMode()"
+      text
+      rounded
+      [icon]="isDarkMode() ? 'pi pi-moon' : 'pi pi-sun'"
+    ></p-button>
+
+    <p-select
+      [options]="languages"
+      [(ngModel)]="selectedLanguage"
+      (onChange)="onLanguageChange($event.value)"
+      optionLabel="label"
+      placeholder="English"
+      styleClass="language-select"
+    />
+  </ng-template>
+</p-menubar>

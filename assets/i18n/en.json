@@ -12,7 +12,7 @@
     "CANDIDATE": "User's Screen",
     "INTERVIEWER": "Interviewer Viewing User's Screen"
   },
-  "SECTIONTITLE2":"Our Features",
+  "SECTIONTITLE2": "Our Features",
   "FEATURES": {
     "HEADING": "Key Features",
     "ITEM1": {
@@ -66,12 +66,14 @@
     "BASIC": {
       "TITLE": "Per Session Plan",
       "PRICE": "$5/session (2 hours)",
-      "DESCRIPTION": "Great for single usage"
+      "DESCRIPTION": "Great for single usage",
+      "OLD_PRICE": "$10/session (2 hours)"
     },
     "PRO": {
       "TITLE": "Monthly Plan",
       "PRICE": "$29.99/month",
-      "DESCRIPTION": "Best for multiple usages for unlimited sessions"
+      "DESCRIPTION": "Best for multiple usages for unlimited sessions",
+      "OLD_PRICE": "$39.99/month"
     },
     "ENTERPRISE": {
       "TITLE": "Enterprise Plan",
@@ -88,7 +90,7 @@
     "QUESTION3": "How do I log in to the system?",
     "ANSWER3": "Access is granted through a unique password distributed by the team—no account registration required. Each user has a secure, individualized access credential.",
     "QUESTION4": "What modes can I switch between?",
-    "ANSWER4":  "We support three usage modes: Behavioral, Technical, and Coding. The system automatically adjusts its output logic based on the selected mode.",
+    "ANSWER4": "We support three usage modes: Behavioral, Technical, and Coding. The system automatically adjusts its output logic based on the selected mode.",
     "QUESTION5": "How does the system generate answers quickly?",
     "ANSWER5": "Transripta uses a dual-engine approach with local caching and cloud-based models, allowing it to recognize voice input and generate high-quality responses within 2 seconds.",
     "QUESTION6": "What programming languages are supported?",
@@ -97,5 +99,11 @@
     "ANSWER7": "Currently, we support both English and Chinese. We are working on adding more languages in the future.",
     "QUESTION8": "What should I do if I experience a bug?",
     "ANSWER8": "Please contact the support team through email. We'll respond as quickly as possible to resolve the issue."
+  },
+  "CONTACT": {
+    "TITLE": "Contact Us to Subscribe",
+    "EMAIL": "transcripta.ai@gmail.com",
+    "DESCRIPTION": "Ready to get started? Contact us via email or scan the QR code to add us on WeChat.",
+    "EMAIL_LABEL": "Email"
   }
 }

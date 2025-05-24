@@ -1,0 +1,345 @@
+<!-- Hero Section -->
+<section id="section-main" class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">{{ "HERO.TITLE" | translate }}</h1>
+    <p class="hero-description">
+      {{ "HERO.DESCRIPTION" | translate }}
+    </p>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<section class="features-section">
+  <h2>{{ "SCREENSHOT.HEADING" | translate }}</h2>
+  <div class="features-grid">
+    <div class="feature-item">
+      <h3>{{ "SCREENSHOT.CANDIDATE" | translate }}</h3>
+      <img src="assets\resource\User's_Screen.png" alt="Software 1" />
+    </div>
+    <div class="feature-item">
+      <h3>{{ "SCREENSHOT.INTERVIEWER" | translate }}</h3>
+      <img src="assets\resource\Interviewer's_Screen.png" alt="Software 1" />
+    </div>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Features Section -->
+<section id="section-feature" class="features-section">
+  <h2>{{ "FEATURES.HEADING" | translate }}</h2>
+  <div class="features-grid">
+    <!-- Feature 1 -->
+    <div class="feature-item">
+      <img
+        [src]="voiceToTextGifSrc"
+        alt="{{ 'FEATURES.ITEM1.TITLE' | translate }}"
+      />
+      <h3>{{ "FEATURES.ITEM1.TITLE" | translate }}</h3>
+      <p>{{ "FEATURES.ITEM1.DESCRIPTION" | translate }}</p>
+    </div>
+    <!-- Feature 2 -->
+    <div class="feature-item">
+      <img
+        src="assets\resource\Code-Ready_Screen_shot_search.gif"
+        alt="{{ 'FEATURES.ITEM2.TITLE' | translate }}"
+      />
+      <h3>{{ "FEATURES.ITEM2.TITLE" | translate }}</h3>
+      <p>{{ "FEATURES.ITEM2.DESCRIPTION" | translate }}</p>
+    </div>
+    <!-- Feature 3 -->
+    <div class="feature-item">
+      <img
+        src="assets\resource\Smart_Resume_Extraction.gif"
+        alt="{{ 'FEATURES.ITEM3.TITLE' | translate }}"
+      />
+      <h3>{{ "FEATURES.ITEM3.TITLE" | translate }}</h3>
+      <p>{{ "FEATURES.ITEM3.DESCRIPTION" | translate }}</p>
+    </div>
+    <!-- Feature 4 -->
+    <div class="feature-item">
+      <img
+        src="assets\resource\one-click_Mode_switching.gif"
+        alt="{{ 'FEATURES.ITEM4.TITLE' | translate }}"
+      />
+      <h3>{{ "FEATURES.ITEM4.TITLE" | translate }}</h3>
+      <p>{{ "FEATURES.ITEM4.DESCRIPTION" | translate }}</p>
+    </div>
+  </div>
+</section>
+<!--</section>-->
+<p-divider></p-divider>
+
+<!-- Why Us Section -->
+<section id="section-why" class="why-us">
+  <h2>{{ "WHY_US.HEADING" | translate }}</h2>
+  <div class="why-us-grid-2x2">
+    <p-card pAnimateOnScroll animation="zoomout" class="why-us-card">
+      <ng-template pTemplate="header">
+        <i
+          class="pi pi-shield"
+          style="margin-right: 0.5rem; color: #e100f1; font-size: 1.8rem"
+        ></i>
+        {{ "WHY_US.BENEFIT1.TITLE" | translate }}
+      </ng-template>
+      <p>{{ "WHY_US.BENEFIT1.DESC" | translate }}</p>
+    </p-card>
+    <p-card pAnimateOnScroll animation="zoomout" class="why-us-card">
+      <ng-template pTemplate="header">
+        <i
+          class="pi pi-verified"
+          style="margin-right: 0.5rem; color: #40f100; font-size: 1.8rem"
+        ></i>
+        {{ "WHY_US.BENEFIT2.TITLE" | translate }}
+      </ng-template>
+      <p>{{ "WHY_US.BENEFIT2.DESC" | translate }}</p>
+    </p-card>
+    <p-card pAnimateOnScroll animation="zoomout" class="why-us-card">
+      <ng-template pTemplate="header">
+        <i
+          class="pi pi-crown"
+          style="margin-right: 0.5rem; color: #f1ed00; font-size: 1.8rem"
+        ></i>
+        {{ "WHY_US.BENEFIT3.TITLE" | translate }}
+      </ng-template>
+      <p>{{ "WHY_US.BENEFIT3.DESC" | translate }}</p>
+    </p-card>
+    <p-card pAnimateOnScroll animation="zoomout" class="why-us-card">
+      <ng-template pTemplate="header">
+        <i
+          class="pi pi-graduation-cap"
+          style="margin-right: 0.5rem; color: #0060f1; font-size: 1.8rem"
+        ></i>
+        {{ "WHY_US.BENEFIT4.TITLE" | translate }}
+      </ng-template>
+      <p>{{ "WHY_US.BENEFIT4.DESC" | translate }}</p>
+    </p-card>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Single Video Section -->
+<section class="single-video-section">
+  <h2>{{ "SINGLE_VIDEO.HEADING" | translate }}</h2>
+  <div class="responsive-iframe-wrapper">
+    <iframe
+      src="https://player.bilibili.com/player.html?bvid=BV1EujxzcEWM&autoplay=0"
+      scrolling="no"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Pricing Section -->
+<section id="section-pricing" class="pricing">
+  <h2>{{ "PRICING.HEADING" | translate }}</h2>
+  <div class="pricing-grid">
+    <p-card class="pricing-card">
+      <ng-template pTemplate="header">
+        <i
+          class="pi pi-star"
+          style="margin-right: 0.5rem; color: #ffdf00; font-size: 1.3rem"
+        ></i>
+        {{ "PRICING.BASIC.TITLE" | translate }}
+      </ng-template>
+      <p class="old-price">
+        {{ "PRICING.BASIC.OLD_PRICE" | translate }}
+      </p>
+      <p class="current-price">
+        {{ "PRICING.BASIC.PRICE" | translate }}
+      </p>
+      <p>{{ "PRICING.BASIC.DESCRIPTION" | translate }}</p>
+    </p-card>
+
+    <p-card class="pricing-card">
+      <ng-template pTemplate="header">
+        <i
+          class="pi pi-moon"
+          style="margin-right: 0.5rem; color: #c0c0c0; font-size: 1.3rem"
+        ></i>
+        {{ "PRICING.PRO.TITLE" | translate }}
+      </ng-template>
+      <p class="old-price">
+        {{ "PRICING.PRO.OLD_PRICE" | translate }}
+      </p>
+      <p class="current-price">
+        {{ "PRICING.PRO.PRICE" | translate }}
+      </p>
+      <p>{{ "PRICING.PRO.DESCRIPTION" | translate }}</p>
+    </p-card>
+
+    <p-card class="pricing-card">
+      <ng-template pTemplate="header">
+        <i
+          class="pi pi-sun"
+          style="margin-right: 0.5rem; color: #ffdf00; font-size: 1.3rem"
+        ></i>
+        {{ "PRICING.ENTERPRISE.TITLE" | translate }}
+      </ng-template>
+      <p class="current-price">
+        {{ "PRICING.ENTERPRISE.PRICE" | translate }}
+      </p>
+      <p>{{ "PRICING.ENTERPRISE.DESCRIPTION" | translate }}</p>
+    </p-card>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Contact US -->
+<section class="contact-us-section">
+  <div class="contact-container">
+    <div class="contact-left">
+      <h2>{{ "CONTACT.TITLE" | translate }}</h2>
+      <p>{{ "CONTACT.DESCRIPTION" | translate }}</p>
+
+      <p>
+        <strong>{{ "CONTACT.EMAIL_LABEL" | translate }}:</strong>
+        <a [href]="'mailto:' + translatedEmail">{{ translatedEmail }}</a>
+      </p>
+    </div>
+
+    <div class="contact-right">
+      <img
+        src="../../../../assets/resource/wechat_qr.jpg"
+        alt="Email QR Code"
+        class="qr-code"
+      />
+      <img
+        src="../../../../assets/resource/douyin_qr.jpg"
+        alt="Email QR Code"
+        class="qr-code"
+      />
+    </div>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Q&A Section -->
+<section class="qa-section">
+  <h2>{{ "QA.HEADING" | translate }}</h2>
+  <p-accordion value="0" [multiple]="true">
+    <p-accordion-panel value="0">
+      <p-accordion-header>
+        <span style="margin-right: 1rem"></span>
+        {{ "QA.QUESTION1" | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">{{ "QA.ANSWER1" | translate }}</p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
+    <p-accordion-panel value="1">
+      <p-accordion-header>
+        <span style="margin-right: 1rem"></span>
+        {{ "QA.QUESTION2" | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">
+          {{ "QA.ANSWER2" | translate }}
+        </p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
+    <p-accordion-panel value="2">
+      <p-accordion-header>
+        <span style="margin-right: 1rem"></span>
+        {{ "QA.QUESTION3" | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">
+          {{ "QA.ANSWER3" | translate }}
+        </p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
+    <p-accordion-panel value="3">
+      <p-accordion-header>
+        <span style="margin-right: 1rem"></span>{{ "QA.QUESTION4" | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">
+          {{ "QA.ANSWER4" | translate }}
+        </p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
+    <p-accordion-panel value="4">
+      <p-accordion-header>
+        <span style="margin-right: 1rem"></span>
+        {{ "QA.QUESTION5" | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">
+          {{ "QA.ANSWER5" | translate }}
+        </p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
+    <p-accordion-panel value="5">
+      <p-accordion-header>
+        <span style="margin-right: 1rem"></span>
+        {{ "QA.QUESTION6" | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">
+          {{ "QA.ANSWER6" | translate }}
+        </p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
+    <p-accordion-panel value="6">
+      <p-accordion-header>
+        <span style="margin-right: 1rem"></span>
+        {{ "QA.QUESTION7" | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">
+          {{ "QA.ANSWER7" | translate }}
+        </p>
+      </p-accordion-content>
+    </p-accordion-panel>
+
+    <p-accordion-panel value="7">
+      <p-accordion-header>
+        <span style="margin-right: 1rem"></span>
+        {{ "QA.QUESTION8" | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">
+          {{ "QA.ANSWER8" | translate }}
+        </p>
+      </p-accordion-content>
+    </p-accordion-panel>
+  </p-accordion>
+</section>

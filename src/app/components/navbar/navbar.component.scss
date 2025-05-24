@@ -1,0 +1,36 @@
+@use "primeicons/primeicons.css";
+
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  z-index: 1000; /* Ensure it's above other content */
+  padding: 10px 20px;
+  transition: top 0.3s ease-in-out;
+}
+
+.topbar-theme-button {
+  padding: 2rem;
+  font-size: large;
+}
+
+//Dark mode
+
+html.p-dark .navbar {
+  background-color: transparent;
+  color: white;
+}
+
+html.dark .navbar button {
+  color: white;
+}
+
+::ng-deep .navbar.p-menubar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
