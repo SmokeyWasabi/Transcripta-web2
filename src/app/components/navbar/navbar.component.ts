@@ -42,7 +42,7 @@ export class NavbarComponent implements OnInit {
   languages: any | undefined;
   menuItems: MenuItem[] = [];
 
-  selectedLanguage: string | undefined; // Default language
+  selectedLanguage!: string; // Default language
   constructor(
     private translate: TranslateService,
     private languageService: LanguageService
@@ -61,6 +61,19 @@ export class NavbarComponent implements OnInit {
     this.translate.setTranslation('en', EN);
     this.translate.setTranslation('zh', ZH);
 
+    this.populateMenuItems();
+  }
+
+  onLanguageChange(lang: any): void {
+    this.selectedLanguage = lang.value;
+    this.translate.use(this.selectedLanguage).subscribe(() => {
+      this.populateMenuItems(); // Refresh labels
+    });
+
+    this.languageService.setLanguage(this.selectedLanguage);
+  }
+
+  populateMenuItems(): void {
     this.translate
       .get(['HOME', 'FEATURE', 'ADVANTAGES', 'PRICING_NAV'])
       .subscribe((translations) => {
@@ -91,11 +104,6 @@ export class NavbarComponent implements OnInit {
           },
         ];
       });
-  }
-
-  onLanguageChange(lang: any): void {
-    this.translate.use(lang.value);
-    this.languageService.setLanguage(lang.value);
   }
   isDarkMode = computed(() => this.layoutService.appState().darkMode);
 

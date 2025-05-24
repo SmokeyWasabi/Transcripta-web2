@@ -158,6 +158,7 @@
   gap: 1.5rem;
   max-width: 1000px;
   margin: 0 auto;
+  align-items: stretch;
 }
 
 @media (max-width: 768px) {
@@ -166,8 +167,18 @@
   }
 }
 
+.why-us-card {
+  flex: 1 1 300px; /* flexible width, min 300px */
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+}
+
 .why-us-card .p-card {
-  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
 }
 
 .why-us-card .p-card-header {
@@ -201,11 +212,32 @@
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+  align-items: stretch;
+}
+
+.pricing-card {
+  flex: 1 1 300px; /* flexible width, min 300px */
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
 }
 
 .pricing-card .p-card {
-  width: 12vw;
-  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.pricing-card .p-card-body {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-grow: 1;
 }
 
 .old-price {
