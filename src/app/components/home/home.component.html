@@ -224,106 +224,17 @@
 <!-- Q&A Section -->
 <section class="qa-section">
   <h2>{{ "QA.HEADING" | translate }}</h2>
-  <p-accordion value="0" [multiple]="true">
-    <p-accordion-panel value="0">
+  <p-accordion [multiple]="true">
+    <p-accordion-panel *ngFor="let item of qaItems; let i = index" [value]="i">
       <p-accordion-header>
         <span style="margin-right: 1rem"></span>
-        {{ "QA.QUESTION1" | translate }}
+        {{ item.questionKey | translate }}
         <ng-template #toggleicon let-active="active">
           <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
         </ng-template>
       </p-accordion-header>
       <p-accordion-content>
-        <p class="m-0">{{ "QA.ANSWER1" | translate }}</p>
-      </p-accordion-content>
-    </p-accordion-panel>
-
-    <p-accordion-panel value="1">
-      <p-accordion-header>
-        <span style="margin-right: 1rem"></span>
-        {{ "QA.QUESTION2" | translate }}
-        <ng-template #toggleicon let-active="active">
-          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
-        </ng-template>
-      </p-accordion-header>
-      <p-accordion-content>
-        <p class="m-0">
-          {{ "QA.ANSWER2" | translate }}
-        </p>
-      </p-accordion-content>
-    </p-accordion-panel>
-
-    <p-accordion-panel value="2">
-      <p-accordion-header>
-        <span style="margin-right: 1rem"></span>
-        {{ "QA.QUESTION3" | translate }}
-        <ng-template #toggleicon let-active="active">
-          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
-        </ng-template>
-      </p-accordion-header>
-      <p-accordion-content>
-        <p class="m-0">
-          {{ "QA.ANSWER3" | translate }}
-        </p>
-      </p-accordion-content>
-    </p-accordion-panel>
-
-    <p-accordion-panel value="3">
-      <p-accordion-header>
-        <span style="margin-right: 1rem"></span>{{ "QA.QUESTION4" | translate }}
-        <ng-template #toggleicon let-active="active">
-          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
-        </ng-template>
-      </p-accordion-header>
-      <p-accordion-content>
-        <p class="m-0">
-          {{ "QA.ANSWER4" | translate }}
-        </p>
-      </p-accordion-content>
-    </p-accordion-panel>
-
-    <p-accordion-panel value="4">
-      <p-accordion-header>
-        <span style="margin-right: 1rem"></span>
-        {{ "QA.QUESTION6" | translate }}
-        <ng-template #toggleicon let-active="active">
-          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
-        </ng-template>
-      </p-accordion-header>
-      <p-accordion-content>
-        <p class="m-0">
-          {{ "QA.ANSWER6" | translate }}
-        </p>
-      </p-accordion-content>
-    </p-accordion-panel>
-
-    <p-accordion-panel value="5">
-      <p-accordion-header>
-        <span style="margin-right: 1rem"></span>
-        {{ "QA.QUESTION7" | translate }}
-        <ng-template #toggleicon let-active="active">
-          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
-        </ng-template>
-      </p-accordion-header>
-      <p-accordion-content>
-        <p class="m-0">
-          {{ "QA.ANSWER7" | translate }}
-        </p>
-      </p-accordion-content>
-    </p-accordion-panel>
-
-    <p-accordion-panel value="6">
-      <p-accordion-header>
-        <span style="margin-right: 1rem"></span>
-        {{ "QA.QUESTION8" | translate }}
-        <ng-template #toggleicon let-active="active">
-          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
-        </ng-template>
-      </p-accordion-header>
-      <p-accordion-content>
-        <p class="m-0">
-          {{ "QA.ANSWER8" | translate }}
-        </p>
+        <p class="m-0">{{ item.answerKey | translate }}</p>
       </p-accordion-content>
     </p-accordion-panel>
   </p-accordion>

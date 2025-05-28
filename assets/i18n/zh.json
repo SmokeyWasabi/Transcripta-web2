@@ -85,12 +85,12 @@
     "ANSWER3": "登录方式为团队分发的独立密码，无需注册账号。每个用户拥有唯一的授权凭证，确保访问安全。",
     "QUESTION4": "支持哪些模式切换？",
     "ANSWER4": "我们支持三种使用模式切换：行为类、技术类、编程类，系统将根据所选自动调整输出逻辑。",
-    "QUESTION6": "支持哪些编程语言？",
-    "ANSWER6": "我们支持多种主流编程语言，包括 Python、Java、JavaScript、C/C++、C#、R、SQL、HTML/CSS、MATLAB、Ruby、Go、Swift、TypeScript、Bash/Shell, 以及 VBA等。",
-    "QUESTION7": "支持中文以外的语言吗？",
-    "ANSWER7": "我们目前只支持中英文语言。我们正在努力添加更多语言。",
-    "QUESTION8": "我遇到问题怎么办?",
-    "ANSWER8": "请联系微信客服，我们将在最短时间内响应处理。"
+    "QUESTION5": "支持哪些编程语言？",
+    "ANSWER5": "我们支持多种主流编程语言，包括 Python、Java、JavaScript、C/C++、C#、R、SQL、HTML/CSS、MATLAB、Ruby、Go、Swift、TypeScript、Bash/Shell, 以及 VBA等。",
+    "QUESTION6": "支持中文以外的语言吗？",
+    "ANSWER6": "我们目前只支持中英文语言。我们正在努力添加更多语言。",
+    "QUESTION7": "我遇到问题怎么办?",
+    "ANSWER7": "请联系微信客服，我们将在最短时间内响应处理。"
   },
   "CONTACT": {
     "TITLE": "联系我们订阅",

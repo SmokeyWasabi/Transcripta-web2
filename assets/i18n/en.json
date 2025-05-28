@@ -85,12 +85,12 @@
     "ANSWER3": "Access is granted through a SSO password distributed by the team. Ensuring a safe and secure connection every time.",
     "QUESTION4": "What modes can I switch between?",
     "ANSWER4": "There are currently three modes available: Behavioral, Technical, and Coding. The application automatically adjusts its output logic based on the selected mode.",
-    "QUESTION6": "What programming languages are supported?",
-    "ANSWER6": "We support many popular programming languages, including Python, Java, JavaScript, C/C++, C#, R, SQL, HTML/CSS, MATLAB, Ruby, Go, Swift, TypeScript, Bash/Shell, and VBA.",
-    "QUESTION7": "Are languages other than English supported?",
-    "ANSWER7": "Currently, we only support both English and Simplified Chinese. There will be more supported languages in the future.",
-    "QUESTION8": "What should I do if I experience an issue?",
-    "ANSWER8": "Please contact the support team through email. We'll respond as quickly as possible to resolve the issue. The support team's contact information can be found in the Contact Us page"
+    "QUESTION5": "What programming languages are supported?",
+    "ANSWER5": "We support many popular programming languages, including Python, Java, JavaScript, C/C++, C#, R, SQL, HTML/CSS, MATLAB, Ruby, Go, Swift, TypeScript, Bash/Shell, and VBA.",
+    "QUESTION6": "Are languages other than English supported?",
+    "ANSWER6": "Currently, we only support both English and Simplified Chinese. There will be more supported languages in the future.",
+    "QUESTION7": "What should I do if I experience an issue?",
+    "ANSWER7": "Please contact the support team through email. We'll respond as quickly as possible to resolve the issue. The support team's contact information can be found in the Contact Us page"
   },
   "CONTACT": {
     "TITLE": "Contact Us to Subscribe",
