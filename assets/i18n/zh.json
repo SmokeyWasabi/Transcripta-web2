@@ -55,26 +55,59 @@
     "HEADING": "实机演示",
     "FALLBACK": "您的浏览器不支持视频标签。"
   },
+
   "PRICING": {
-    "HEADING": "定价",
+    "HEADING": "定价方案",
+    "FEATURE": "功能 / 方案",
     "BASIC": {
       "TITLE": "单次使用方案",
-      "PRICE": "¥20/次 (2小时)",
+      "OLD_PRICE": "¥40/次",
+      "PRICE": "¥25/次",
       "DESCRIPTION": "适合单次使用",
-      "OLD_PRICE": "¥30/次 (2小时)"
+      "AVAILABILITY": "1次",
+      "DURATION": "2小时",
+      "SPEECH_TO_TEXT": "✅",
+      "IMAGE_SEARCH": "✅",
+      "RESUME_PARSING": "❌",
+      "DUAL_MODE_OUTPUT": "❌",
+      "SUPPORT": "基础客服"
     },
     "PRO": {
       "TITLE": "月度使用方案",
-      "PRICE": "¥199/月",
-      "DESCRIPTION": "适合频繁使用用户，无限次数",
-      "OLD_PRICE": "¥299/月"
+      "OLD_PRICE": "¥199.99/月",
+      "PRICE": "¥119.99/月",
+      "DESCRIPTION": "适合频繁使用，提供无限次数",
+      "AVAILABILITY": "无限次",
+      "DURATION": "2小时",
+      "SPEECH_TO_TEXT": "✅",
+      "IMAGE_SEARCH": "✅",
+      "RESUME_PARSING": "✅",
+      "DUAL_MODE_OUTPUT": "✅",
+      "SUPPORT": "优先客服"
     },
     "ENTERPRISE": {
       "TITLE": "企业使用方案",
-      "PRICE": "请联系我们",
-      "DESCRIPTION": "可根据企业需求定制解决方案"
+      "PRICE": "定制定价",
+      "DESCRIPTION": "根据企业需求提供定制化解决方案",
+      "AVAILABILITY": "无限次 + 多账号支持",
+      "DURATION": "可定制",
+      "SPEECH_TO_TEXT": "✅（可扩展功能）",
+      "IMAGE_SEARCH": "✅（可扩展功能）",
+      "RESUME_PARSING": "✅（可扩展功能）",
+      "DUAL_MODE_OUTPUT": "✅（可扩展功能）",
+      "SUPPORT": "专属对接人 + 定制服务"
+    },
+    "ROW": {
+      "AVAILABILITY": "可用次数",
+      "DURATION": "使用时长",
+      "SPEECH_TO_TEXT": "实时语音转文字搜索",
+      "IMAGE_SEARCH": "多功能隐蔽截图搜索",
+      "RESUME_PARSING": "智能简历解析",
+      "DUAL_MODE_OUTPUT": "双模式智能输出",
+      "SUPPORT": "客服支持"
     }
   },
+
   "QA": {
     "HEADING": "常见问题",
     "QUESTION1": "灵答是免费使用的吗？",
@@ -97,5 +130,10 @@
     "EMAIL": "transcripta@163.com",
     "DESCRIPTION": "欢迎您联系我们！请通过以下方式与我们取得联系.",
     "EMAIL_LABEL": "邮箱"
+  },
+  "FOOTER": {
+    "OFFICIAL_EMAIL": "官方客服邮箱：",
+    "WORKING_HOURS": "工作时间：周一至周日 8:00 – 18:00"
   }
 }
+

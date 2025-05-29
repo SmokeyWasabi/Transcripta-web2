@@ -20,11 +20,11 @@
       "DESCRIPTION": "High-speed, bilingual speech-to-text transcription with sub-2-second turnaround and enterprise-level accuracy."
     },
     "ITEM2": {
-      "TITLE": "Code-Ready Screen Search",
+      "TITLE": "Code-Ready Screenshot Search",
       "DESCRIPTION": "Capture screenshots and instantly extract text or code snippets with ease."
     },
     "ITEM3": {
-      "TITLE": "Smart Resume Extraction",
+      "TITLE": "Smart Resume Parsing",
       "DESCRIPTION": "Auto-import key details from your uploaded resume to contextualize and tailor responses for your needs."
     },
     "ITEM4": {
@@ -55,26 +55,59 @@
     "HEADING": "Live Demo",
     "FALLBACK": "Your browser does not support the video tag."
   },
+  
   "PRICING": {
     "HEADING": "Pricing",
+    "FEATURE": "Feature / Plan",
     "BASIC": {
       "TITLE": "Per Session Plan",
-      "PRICE": "$5/session (2 hours)",
+      "OLD_PRICE": "$10/session",
+      "PRICE": "$5/session",
       "DESCRIPTION": "Great for single use",
-      "OLD_PRICE": "$10/session (2 hours)"
+      "AVAILABILITY": "1 session",
+      "DURATION": "2 hours",
+      "SPEECH_TO_TEXT": "✅",
+      "IMAGE_SEARCH": "✅",
+      "RESUME_PARSING": "❌",
+      "DUAL_MODE_OUTPUT": "❌",
+      "SUPPORT": "Basic Support"
     },
     "PRO": {
       "TITLE": "Monthly Plan",
-      "PRICE": "$29.99/month",
-      "DESCRIPTION": "Best for multiple usages with unlimited sessions",
-      "OLD_PRICE": "$39.99/month"
+      "OLD_PRICE": "$35.99/month",
+      "PRICE": "$24.99/month",
+      "DESCRIPTION": "Unlimited sessions for one user",
+      "AVAILABILITY": "Unlimited",
+      "DURATION": "2 hours",
+      "SPEECH_TO_TEXT": "✅",
+      "IMAGE_SEARCH": "✅",
+      "RESUME_PARSING": "✅",
+      "DUAL_MODE_OUTPUT": "✅",
+      "SUPPORT": "Priority Support"
     },
     "ENTERPRISE": {
       "TITLE": "Enterprise Plan",
-      "PRICE": "Please contact us through email/social media",
-      "DESCRIPTION": "Customimized solutions for business needs"
+      "PRICE": "Custom pricing",
+      "DESCRIPTION": "Customized solutions for business needs",
+      "AVAILABILITY": "Unlimited + Multi-Account Support",
+      "DURATION": "Customizable",
+      "SPEECH_TO_TEXT": "✅ (Extensible)",
+      "IMAGE_SEARCH": "✅ (Extensible)",
+      "RESUME_PARSING": "✅ (Extensible)",
+      "DUAL_MODE_OUTPUT": "✅ (Extensible)",
+      "SUPPORT": "Dedicated Rep + Customimzed Service"
+    },
+    "ROW": {
+      "AVAILABILITY": "Availability",
+      "DURATION": "Duration",
+      "SPEECH_TO_TEXT": "Real-Time Voice-to-Text Search",
+      "IMAGE_SEARCH": "OCR Screenshot Search",
+      "RESUME_PARSING": "Smart Resume Parsing",
+      "DUAL_MODE_OUTPUT": "One-Click Mode Switching",
+      "SUPPORT": "Customer Support"
     }
   },
+
   "QA": {
     "HEADING": "Frequently Asked Questions",
     "QUESTION1": "Is Transripta free to use?",
@@ -97,5 +130,11 @@
     "EMAIL": "transcripta.ai@gmail.com",
     "DESCRIPTION": "Ready to get started? Contact us via email or scan the QR code to add us on WeChat.",
     "EMAIL_LABEL": "Email"
+  },
+  "FOOTER": {
+    "OFFICIAL_EMAIL": "Official Support Email:",
+    "WORKING_HOURS": "Working Hours: 8:00 AM – 5:00 PM (Mon – Sun)"
   }
 }
+
+

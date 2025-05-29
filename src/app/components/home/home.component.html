@@ -136,58 +136,84 @@
 <p-divider></p-divider>
 
 <!-- Pricing Section -->
-<section id="section-pricing" class="pricing">
-  <h2>{{ "PRICING.HEADING" | translate }}</h2>
-  <div class="pricing-grid">
-    <p-card class="pricing-card">
-      <ng-template pTemplate="header">
-        <i
-          class="pi pi-star"
-          style="margin-right: 0.5rem; color: #ffdf00; font-size: 1.3rem"
-        ></i>
-        {{ "PRICING.BASIC.TITLE" | translate }}
-      </ng-template>
-      <p class="old-price">
-        {{ "PRICING.BASIC.OLD_PRICE" | translate }}
-      </p>
-      <p class="current-price">
-        {{ "PRICING.BASIC.PRICE" | translate }}
-      </p>
-      <p>{{ "PRICING.BASIC.DESCRIPTION" | translate }}</p>
-    </p-card>
+<section id="section-pricing" class="pricing-comparison-grid">
+  <h2 class="text-center">{{ "PRICING.HEADING" | translate }}</h2>
 
-    <p-card class="pricing-card">
-      <ng-template pTemplate="header">
-        <i
-          class="pi pi-moon"
-          style="margin-right: 0.5rem; color: #c0c0c0; font-size: 1.3rem"
-        ></i>
-        {{ "PRICING.PRO.TITLE" | translate }}
-      </ng-template>
-      <p class="old-price">
-        {{ "PRICING.PRO.OLD_PRICE" | translate }}
-      </p>
-      <p class="current-price">
-        {{ "PRICING.PRO.PRICE" | translate }}
-      </p>
-      <p>{{ "PRICING.PRO.DESCRIPTION" | translate }}</p>
-    </p-card>
-
-    <p-card class="pricing-card">
-      <ng-template pTemplate="header">
-        <i
-          class="pi pi-sun"
-          style="margin-right: 0.5rem; color: #ffdf00; font-size: 1.3rem"
-        ></i>
-        {{ "PRICING.ENTERPRISE.TITLE" | translate }}
-      </ng-template>
-      <p class="current-price">
-        {{ "PRICING.ENTERPRISE.PRICE" | translate }}
-      </p>
-      <p>{{ "PRICING.ENTERPRISE.DESCRIPTION" | translate }}</p>
-    </p-card>
+  <div class="table-wrapper">
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>{{ "PRICING.FEATURE" | translate }}</th>
+          <th>
+            <i class="pi pi-star" style="color: #ffdf00;"></i><br />
+            {{ "PRICING.BASIC.TITLE" | translate }}<br />
+            <span class="old-price">{{ "PRICING.BASIC.OLD_PRICE" | translate }}</span><br />
+            <span class="current-price">{{ "PRICING.BASIC.PRICE" | translate }}</span><br />
+            <small>{{ "PRICING.BASIC.DESCRIPTION" | translate }}</small>
+          </th>
+          <th>
+            <i class="pi pi-moon" style="color: #aaa;"></i><br />
+            {{ "PRICING.PRO.TITLE" | translate }}<br />
+            <span class="old-price">{{ "PRICING.PRO.OLD_PRICE" | translate }}</span><br />
+            <span class="current-price">{{ "PRICING.PRO.PRICE" | translate }}</span><br />
+            <small>{{ "PRICING.PRO.DESCRIPTION" | translate }}</small>
+          </th>
+          <th>
+            <i class="pi pi-sun" style="color: #ffdf00;"></i><br />
+            {{ "PRICING.ENTERPRISE.TITLE" | translate }}<br />
+            <span class="current-price">{{ "PRICING.ENTERPRISE.PRICE" | translate }}</span><br />
+            <small>{{ "PRICING.ENTERPRISE.DESCRIPTION" | translate }}</small>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ "PRICING.ROW.AVAILABILITY" | translate }}</td>
+          <td>{{ "PRICING.BASIC.AVAILABILITY" | translate }}</td>
+          <td>{{ "PRICING.PRO.AVAILABILITY" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.AVAILABILITY" | translate }}</td>
+        </tr>
+        <tr>
+          <td>{{ "PRICING.ROW.DURATION" | translate }}</td>
+          <td>{{ "PRICING.BASIC.DURATION" | translate }}</td>
+          <td>{{ "PRICING.PRO.DURATION" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.DURATION" | translate }}</td>
+        </tr>
+        <tr>
+          <td>{{ "PRICING.ROW.SPEECH_TO_TEXT" | translate }}</td>
+          <td>{{ "PRICING.BASIC.SPEECH_TO_TEXT" | translate }}</td>
+          <td>{{ "PRICING.PRO.SPEECH_TO_TEXT" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.SPEECH_TO_TEXT" | translate }}</td>
+        </tr>
+        <tr>
+          <td>{{ "PRICING.ROW.IMAGE_SEARCH" | translate }}</td>
+          <td>{{ "PRICING.BASIC.IMAGE_SEARCH" | translate }}</td>
+          <td>{{ "PRICING.PRO.IMAGE_SEARCH" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.IMAGE_SEARCH" | translate }}</td>
+        </tr>
+        <tr>
+          <td>{{ "PRICING.ROW.RESUME_PARSING" | translate }}</td>
+          <td>{{ "PRICING.BASIC.RESUME_PARSING" | translate }}</td>
+          <td>{{ "PRICING.PRO.RESUME_PARSING" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.RESUME_PARSING" | translate }}</td>
+        </tr>
+        <tr>
+          <td>{{ "PRICING.ROW.DUAL_MODE_OUTPUT" | translate }}</td>
+          <td>{{ "PRICING.BASIC.DUAL_MODE_OUTPUT" | translate }}</td>
+          <td>{{ "PRICING.PRO.DUAL_MODE_OUTPUT" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.DUAL_MODE_OUTPUT" | translate }}</td>
+        </tr>
+        <tr>
+          <td>{{ "PRICING.ROW.SUPPORT" | translate }}</td>
+          <td>{{ "PRICING.BASIC.SUPPORT" | translate }}</td>
+          <td>{{ "PRICING.PRO.SUPPORT" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.SUPPORT" | translate }}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </section>
+
 
 <p-divider></p-divider>
 
