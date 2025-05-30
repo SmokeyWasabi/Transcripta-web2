@@ -5,97 +5,136 @@
   "PRICING_NAV": "Pricing",
   "HERO": {
     "TITLE": "Transcripta",
-    "DESCRIPTION": "The ultimate tool to ace your next interview with features like voice-to-text and Screen Shot search."
+    "DESCRIPTION": "The ultimate tool to ace your next interview with features like speech-to-text and screen search."
   },
   "SCREENSHOT": {
     "HEADING": "Live Screen Views",
     "CANDIDATE": "User's Screen",
-    "INTERVIEWER": "Interviewer Viewing User's Screen"
+    "INTERVIEWER": "Interviewer's Screen"
   },
-  "SECTIONTITLE2":"Our Features",
+  "SECTIONTITLE2": "Our Features",
   "FEATURES": {
     "HEADING": "Key Features",
     "ITEM1": {
       "TITLE": "Enterprise-Grade Voice-to-Text",
-      "DESCRIPTION": "High-speed, bilingual transcription with sub-2-second turnaround and enterprise-level accuracy."
+      "DESCRIPTION": "High-speed, bilingual speech-to-text transcription with sub-2-second turnaround and enterprise-level accuracy."
     },
     "ITEM2": {
-      "TITLE": "Code-Ready Screen Shot Search",
-      "DESCRIPTION": "Capture screenshots without cursor artifacts and instantly extract text or code snippets for easy searching."
+      "TITLE": "Code-Ready Screenshot Search",
+      "DESCRIPTION": "Capture screenshots and instantly extract text or code snippets with ease."
     },
     "ITEM3": {
-      "TITLE": "Smart Resume Extraction",
-      "DESCRIPTION": "Auto-imports key details from your uploaded resume to contextualize and tailor responses."
+      "TITLE": "Smart Resume Parsing",
+      "DESCRIPTION": "Auto-import key details from your uploaded resume to contextualize and tailor responses for your needs."
     },
     "ITEM4": {
       "TITLE": "One-Click Mode Switching",
-      "DESCRIPTION": "Seamlessly toggle between behavioral and technical interview modes with a single button."
+      "DESCRIPTION": "Seamlessly toggle between behavioral and technical interview modes with the click of a button."
     }
   },
   "WHY_US": {
     "HEADING": "Why Choose Us",
     "BENEFIT1": {
       "TITLE": "Unmatched Stealth & Security",
-      "DESC": "Runs invisibly on major platforms with password-protected access—ensuring complete privacy and protection throughout your interview."
+      "DESC": "Runs invisibly on all major platforms with password-protected access."
     },
     "BENEFIT2": {
       "TITLE": "Personalized Performance",
-      "DESC": "Receive responses tailored precisely to your background for maximum relevance."
+      "DESC": "Receive resume-tailored responses based on your unique exeperiences and backgrounds."
     },
     "BENEFIT3": {
       "TITLE": "Effortless Efficiency",
-      "DESC": "Instant transcription, Screen Shot Search, and mode switching combine to streamline your prep workflow. Easy to use, no need to install anything."
+      "DESC": " Provides multiple functionality to streamline your prep work and help you ace your task."
     },
     "BENEFIT4": {
       "TITLE": "Solution Reasoning",
-      "DESC": "Explained solutions with step-by-step reasoning to help you understand the logic behind the answers."
+      "DESC": "Generates detailed solutions with step by step thought process to help you follow along."
     }
   },
   "SINGLE_VIDEO": {
     "HEADING": "Live Demo",
     "FALLBACK": "Your browser does not support the video tag."
   },
-  "QUICK_START": {
-    "HEADING": "Quick Start",
-    "STEP1": "Sign up for a free account",
-    "STEP2": "Choose your preferred tools",
-    "STEP3": "Deploy your first project in minutes"
-  },
+  
   "PRICING": {
     "HEADING": "Pricing",
+    "FEATURE": "Feature / Plan",
     "BASIC": {
       "TITLE": "Per Session Plan",
-      "PRICE": "$5/session (2 hours)",
-      "DESCRIPTION": "Great for single usage"
+      "OLD_PRICE": "$10/session",
+      "PRICE": "$5/session",
+      "DESCRIPTION": "Great for single use",
+      "AVAILABILITY": "1 session",
+      "DURATION": "2 hours",
+      "SPEECH_TO_TEXT": "✅",
+      "IMAGE_SEARCH": "✅",
+      "RESUME_PARSING": "❌",
+      "DUAL_MODE_OUTPUT": "❌",
+      "SUPPORT": "Basic Support"
     },
     "PRO": {
       "TITLE": "Monthly Plan",
-      "PRICE": "$29.99/month",
-      "DESCRIPTION": "Best for multiple usages for unlimited sessions"
+      "OLD_PRICE": "$35.99/month",
+      "PRICE": "$24.99/month",
+      "DESCRIPTION": "Unlimited sessions for one user",
+      "AVAILABILITY": "Unlimited",
+      "DURATION": "2 hours",
+      "SPEECH_TO_TEXT": "✅",
+      "IMAGE_SEARCH": "✅",
+      "RESUME_PARSING": "✅",
+      "DUAL_MODE_OUTPUT": "✅",
+      "SUPPORT": "Priority Support"
     },
     "ENTERPRISE": {
       "TITLE": "Enterprise Plan",
-      "PRICE": "Please contact us",
-      "DESCRIPTION": "Customimized solutions for the business's needs"
+      "PRICE": "Custom pricing",
+      "DESCRIPTION": "Customized solutions for business needs",
+      "AVAILABILITY": "Unlimited + Multi-Account Support",
+      "DURATION": "Customizable",
+      "SPEECH_TO_TEXT": "✅ (Extensible)",
+      "IMAGE_SEARCH": "✅ (Extensible)",
+      "RESUME_PARSING": "✅ (Extensible)",
+      "DUAL_MODE_OUTPUT": "✅ (Extensible)",
+      "SUPPORT": "Dedicated Rep + Customimzed Service"
+    },
+    "ROW": {
+      "AVAILABILITY": "Availability",
+      "DURATION": "Duration",
+      "SPEECH_TO_TEXT": "Real-Time Voice-to-Text Search",
+      "IMAGE_SEARCH": "OCR Screenshot Search",
+      "RESUME_PARSING": "Smart Resume Parsing",
+      "DUAL_MODE_OUTPUT": "One-Click Mode Switching",
+      "SUPPORT": "Customer Support"
     }
   },
+
   "QA": {
     "HEADING": "Frequently Asked Questions",
     "QUESTION1": "Is Transripta free to use?",
     "ANSWER1": "We currently offer a trial version. Some core features are permanently free, while advanced features can be unlocked through a subscription.",
-    "QUESTION2": "Can the platform detect Transripta during use?",
-    "ANSWER2": "No. The tool runs in a hidden window and displays no visible interface. Platforms like Tencent Meeting, DingTalk, Zoom, Google Meet, or Microsoft Teams cannot detect it.",
-    "QUESTION3": "How do I log in to the system?",
-    "ANSWER3": "Access is granted through a unique password distributed by the team—no account registration required. Each user has a secure, individualized access credential.",
+    "QUESTION2": "Can screen-sharing applications detect Transcripta during use?",
+    "ANSWER2": "No. Our application blocks all screen capturing requests and will appear invisible. Applications like Tencent Meeting, DingTalk, Zoom, Google Meet, or Microsoft Teams cannot detect nor capture our application.",
+    "QUESTION3": "How do I log in to the app?",
+    "ANSWER3": "Access is granted through a SSO password distributed by the team. Ensuring a safe and secure connection every time.",
     "QUESTION4": "What modes can I switch between?",
-    "ANSWER4":  "We support three usage modes: Behavioral, Technical, and Coding. The system automatically adjusts its output logic based on the selected mode.",
-    "QUESTION5": "How does the system generate answers quickly?",
-    "ANSWER5": "Transripta uses a dual-engine approach with local caching and cloud-based models, allowing it to recognize voice input and generate high-quality responses within 2 seconds.",
-    "QUESTION6": "What programming languages are supported?",
-    "ANSWER6": "We support many popular programming languages, including Python, Java, JavaScript, C/C++, C#, R, SQL, HTML/CSS, MATLAB, Ruby, Go, Swift, TypeScript, Bash/Shell, and VBA.",
-    "QUESTION7": "Are languages other than English supported?",
-    "ANSWER7": "Currently, we support both English and Chinese. We are working on adding more languages in the future.",
-    "QUESTION8": "What should I do if I experience a bug?",
-    "ANSWER8": "Please contact the support team through email. We'll respond as quickly as possible to resolve the issue."
+    "ANSWER4": "There are currently three modes available: Behavioral, Technical, and Coding. The application automatically adjusts its output logic based on the selected mode.",
+    "QUESTION5": "What programming languages are supported?",
+    "ANSWER5": "We support many popular programming languages, including Python, Java, JavaScript, C/C++, C#, R, SQL, HTML/CSS, MATLAB, Ruby, Go, Swift, TypeScript, Bash/Shell, and VBA.",
+    "QUESTION6": "Are languages other than English supported?",
+    "ANSWER6": "Currently, we only support both English and Simplified Chinese. There will be more supported languages in the future.",
+    "QUESTION7": "What should I do if I experience an issue?",
+    "ANSWER7": "Please contact the support team through email. We'll respond as quickly as possible to resolve the issue. The support team's contact information can be found in the Contact Us page"
+  },
+  "CONTACT": {
+    "TITLE": "Contact Us to Subscribe",
+    "EMAIL": "transcripta.ai@gmail.com",
+    "DESCRIPTION": "Ready to get started? Contact us via email or scan the QR code to add us on WeChat.",
+    "EMAIL_LABEL": "Email"
+  },
+  "FOOTER": {
+    "OFFICIAL_EMAIL": "Official Support Email:",
+    "WORKING_HOURS": "Working Hours: 8:00 AM – 5:00 PM (Mon – Sun)"
   }
 }
+
+

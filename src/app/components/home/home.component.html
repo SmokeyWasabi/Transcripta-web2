@@ -1,0 +1,267 @@
+<!-- Hero Section -->
+<section id="section-main" class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">{{ "HERO.TITLE" | translate }}</h1>
+    <p class="hero-description">
+      {{ "HERO.DESCRIPTION" | translate }}
+    </p>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<section class="features-section">
+  <h2>{{ "SCREENSHOT.HEADING" | translate }}</h2>
+  <div class="features-grid">
+    <div class="feature-item">
+      <h3>{{ "SCREENSHOT.CANDIDATE" | translate }}</h3>
+      <img src="assets\resource\User's_Screen.png" alt="Software 1" />
+    </div>
+    <div class="feature-item">
+      <h3>{{ "SCREENSHOT.INTERVIEWER" | translate }}</h3>
+      <img src="assets\resource\Interviewer's_Screen.png" alt="Software 1" />
+    </div>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Features Section -->
+<section id="section-feature" class="features-section">
+  <h2>{{ "FEATURES.HEADING" | translate }}</h2>
+  <div class="features-grid">
+    <!-- Feature 1 -->
+    <div class="feature-item">
+      <img
+        [src]="voiceToTextGifSrc"
+        alt="{{ 'FEATURES.ITEM1.TITLE' | translate }}"
+      />
+      <h3>{{ "FEATURES.ITEM1.TITLE" | translate }}</h3>
+      <p>{{ "FEATURES.ITEM1.DESCRIPTION" | translate }}</p>
+    </div>
+    <!-- Feature 2 -->
+    <div class="feature-item">
+      <img
+        src="assets\resource\Code-Ready_Screen_shot_search.gif"
+        alt="{{ 'FEATURES.ITEM2.TITLE' | translate }}"
+      />
+      <h3>{{ "FEATURES.ITEM2.TITLE" | translate }}</h3>
+      <p>{{ "FEATURES.ITEM2.DESCRIPTION" | translate }}</p>
+    </div>
+    <!-- Feature 3 -->
+    <div class="feature-item">
+      <img
+        src="assets\resource\Smart_Resume_Extraction.gif"
+        alt="{{ 'FEATURES.ITEM3.TITLE' | translate }}"
+      />
+      <h3>{{ "FEATURES.ITEM3.TITLE" | translate }}</h3>
+      <p>{{ "FEATURES.ITEM3.DESCRIPTION" | translate }}</p>
+    </div>
+    <!-- Feature 4 -->
+    <div class="feature-item">
+      <img
+        src="assets\resource\one-click_Mode_switching.gif"
+        alt="{{ 'FEATURES.ITEM4.TITLE' | translate }}"
+      />
+      <h3>{{ "FEATURES.ITEM4.TITLE" | translate }}</h3>
+      <p>{{ "FEATURES.ITEM4.DESCRIPTION" | translate }}</p>
+    </div>
+  </div>
+</section>
+<!--</section>-->
+<p-divider></p-divider>
+
+<!-- Why Us Section -->
+<section id="section-why" class="why-us">
+  <h2>{{ "WHY_US.HEADING" | translate }}</h2>
+  <div class="why-us-grid-2x2">
+    <p-card pAnimateOnScroll animation="zoomout" class="why-us-card">
+      <ng-template pTemplate="header">
+        <i
+          class="pi pi-shield"
+          style="margin-right: 0.5rem; color: #e100f1; font-size: 1.8rem"
+        ></i>
+        {{ "WHY_US.BENEFIT1.TITLE" | translate }}
+      </ng-template>
+      <p>{{ "WHY_US.BENEFIT1.DESC" | translate }}</p>
+    </p-card>
+    <p-card pAnimateOnScroll animation="zoomout" class="why-us-card">
+      <ng-template pTemplate="header">
+        <i
+          class="pi pi-verified"
+          style="margin-right: 0.5rem; color: #40f100; font-size: 1.8rem"
+        ></i>
+        {{ "WHY_US.BENEFIT2.TITLE" | translate }}
+      </ng-template>
+      <p>{{ "WHY_US.BENEFIT2.DESC" | translate }}</p>
+    </p-card>
+    <p-card pAnimateOnScroll animation="zoomout" class="why-us-card">
+      <ng-template pTemplate="header">
+        <i
+          class="pi pi-crown"
+          style="margin-right: 0.5rem; color: #f1ed00; font-size: 1.8rem"
+        ></i>
+        {{ "WHY_US.BENEFIT3.TITLE" | translate }}
+      </ng-template>
+      <p>{{ "WHY_US.BENEFIT3.DESC" | translate }}</p>
+    </p-card>
+    <p-card pAnimateOnScroll animation="zoomout" class="why-us-card">
+      <ng-template pTemplate="header">
+        <i
+          class="pi pi-graduation-cap"
+          style="margin-right: 0.5rem; color: #0060f1; font-size: 1.8rem"
+        ></i>
+        {{ "WHY_US.BENEFIT4.TITLE" | translate }}
+      </ng-template>
+      <p>{{ "WHY_US.BENEFIT4.DESC" | translate }}</p>
+    </p-card>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Single Video Section -->
+<section class="single-video-section">
+  <h2>{{ "SINGLE_VIDEO.HEADING" | translate }}</h2>
+  <div class="responsive-iframe-wrapper">
+    <iframe
+      src="https://player.bilibili.com/player.html?bvid=BV1EujxzcEWM&autoplay=0"
+      scrolling="no"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Pricing Section -->
+<section id="section-pricing" class="pricing-comparison-grid">
+  <h2 class="text-center">{{ "PRICING.HEADING" | translate }}</h2>
+
+  <div class="table-wrapper">
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>{{ "PRICING.FEATURE" | translate }}</th>
+          <th>
+            <i class="pi pi-star" style="color: #ffdf00;"></i><br />
+            {{ "PRICING.BASIC.TITLE" | translate }}<br />
+            <span class="old-price">{{ "PRICING.BASIC.OLD_PRICE" | translate }}</span><br />
+            <span class="current-price">{{ "PRICING.BASIC.PRICE" | translate }}</span><br />
+            <small>{{ "PRICING.BASIC.DESCRIPTION" | translate }}</small>
+          </th>
+          <th>
+            <i class="pi pi-moon" style="color: #aaa;"></i><br />
+            {{ "PRICING.PRO.TITLE" | translate }}<br />
+            <span class="old-price">{{ "PRICING.PRO.OLD_PRICE" | translate }}</span><br />
+            <span class="current-price">{{ "PRICING.PRO.PRICE" | translate }}</span><br />
+            <small>{{ "PRICING.PRO.DESCRIPTION" | translate }}</small>
+          </th>
+          <th>
+            <i class="pi pi-sun" style="color: #ffdf00;"></i><br />
+            {{ "PRICING.ENTERPRISE.TITLE" | translate }}<br />
+            <span class="current-price">{{ "PRICING.ENTERPRISE.PRICE" | translate }}</span><br />
+            <small>{{ "PRICING.ENTERPRISE.DESCRIPTION" | translate }}</small>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ "PRICING.ROW.AVAILABILITY" | translate }}</td>
+          <td>{{ "PRICING.BASIC.AVAILABILITY" | translate }}</td>
+          <td>{{ "PRICING.PRO.AVAILABILITY" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.AVAILABILITY" | translate }}</td>
+        </tr>
+        <tr>
+          <td>{{ "PRICING.ROW.DURATION" | translate }}</td>
+          <td>{{ "PRICING.BASIC.DURATION" | translate }}</td>
+          <td>{{ "PRICING.PRO.DURATION" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.DURATION" | translate }}</td>
+        </tr>
+        <tr>
+          <td>{{ "PRICING.ROW.SPEECH_TO_TEXT" | translate }}</td>
+          <td>{{ "PRICING.BASIC.SPEECH_TO_TEXT" | translate }}</td>
+          <td>{{ "PRICING.PRO.SPEECH_TO_TEXT" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.SPEECH_TO_TEXT" | translate }}</td>
+        </tr>
+        <tr>
+          <td>{{ "PRICING.ROW.IMAGE_SEARCH" | translate }}</td>
+          <td>{{ "PRICING.BASIC.IMAGE_SEARCH" | translate }}</td>
+          <td>{{ "PRICING.PRO.IMAGE_SEARCH" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.IMAGE_SEARCH" | translate }}</td>
+        </tr>
+        <tr>
+          <td>{{ "PRICING.ROW.RESUME_PARSING" | translate }}</td>
+          <td>{{ "PRICING.BASIC.RESUME_PARSING" | translate }}</td>
+          <td>{{ "PRICING.PRO.RESUME_PARSING" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.RESUME_PARSING" | translate }}</td>
+        </tr>
+        <tr>
+          <td>{{ "PRICING.ROW.DUAL_MODE_OUTPUT" | translate }}</td>
+          <td>{{ "PRICING.BASIC.DUAL_MODE_OUTPUT" | translate }}</td>
+          <td>{{ "PRICING.PRO.DUAL_MODE_OUTPUT" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.DUAL_MODE_OUTPUT" | translate }}</td>
+        </tr>
+        <tr>
+          <td>{{ "PRICING.ROW.SUPPORT" | translate }}</td>
+          <td>{{ "PRICING.BASIC.SUPPORT" | translate }}</td>
+          <td>{{ "PRICING.PRO.SUPPORT" | translate }}</td>
+          <td>{{ "PRICING.ENTERPRISE.SUPPORT" | translate }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+<p-divider></p-divider>
+
+<!-- Contact US -->
+<section class="contact-us-section">
+  <div class="contact-container">
+    <div class="contact-left">
+      <h2>{{ "CONTACT.TITLE" | translate }}</h2>
+      <p>{{ "CONTACT.DESCRIPTION" | translate }}</p>
+
+      <p>
+        <strong>{{ "CONTACT.EMAIL_LABEL" | translate }}:</strong>
+        <a [href]="'mailto:' + translatedEmail">{{ translatedEmail }}</a>
+      </p>
+    </div>
+
+    <div class="contact-right">
+      <img
+        src="../../../../assets/resource/wechat_qr.jpg"
+        alt="Email QR Code"
+        class="qr-code"
+      />
+      <img
+        src="../../../../assets/resource/douyin_qr.jpg"
+        alt="Email QR Code"
+        class="qr-code"
+      />
+    </div>
+  </div>
+</section>
+
+<p-divider></p-divider>
+
+<!-- Q&A Section -->
+<section class="qa-section">
+  <h2>{{ "QA.HEADING" | translate }}</h2>
+  <p-accordion [multiple]="true">
+    <p-accordion-panel *ngFor="let item of qaItems; let i = index" [value]="i">
+      <p-accordion-header>
+        <span style="margin-right: 1rem"></span>
+        {{ item.questionKey | translate }}
+        <ng-template #toggleicon let-active="active">
+          <i class="pi" [ngClass]="active ? 'pi-minus' : 'pi-plus'"></i>
+        </ng-template>
+      </p-accordion-header>
+      <p-accordion-content>
+        <p class="m-0">{{ item.answerKey | translate }}</p>
+      </p-accordion-content>
+    </p-accordion-panel>
+  </p-accordion>
+</section>
